@@ -4,7 +4,7 @@ Este projeto é um site de uma construtora civil, ele apresenta várias funciona
 
 <h1>Tecnologias Utilizadas</h1>
 
-HTML
+HTML<br>
 Bootstrap (CSS via CDN)
 
 <h1>⚠️ Problemas enfrentados</h1>
