@@ -7,6 +7,7 @@ Tecnologias Utilizadas
 Html 5 -Utilizado para estruturar as páginas do site.
 Css - Utilizado para estilizar e personalizar o layout do site.
 
+
 ⚠️ Problemas enfrentados
 
 Problema 1:
