@@ -26,7 +26,7 @@ O segundo desafio foi fazer uma página que fosse utilizável tanto para desktop
 
 Pretendo continuar me aperfeiçoando no projeto para que ele seja no futuro utilizado para empresas da área de construção civil.
 
-Contribuições
+
 Este projeto está aberto para contribuições. Sinta-se à vontade para utilizar o código como referência ou fazer melhorias.
 
 Imagem da Página 
