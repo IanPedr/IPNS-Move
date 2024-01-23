@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPNS Move</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <!--Google Fonts - Projeto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Bootstrap Css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!--Bootstrap Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!--Css do Projeto-->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!--Bootstrap Js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+      <div class="container py-3">
+        <a href="#" class="navbar-brand primary-color">
+          <img src="img/imovi-icon.png" alt="IPNS Move" />
+          <span>IPNS Move</span>
+        </a>
+        <buttton
+          class="navbar-toggler"
+          type="buttton"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-items"
+          aria-controls="navbar-items"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list"></i>
+        </buttton>
+        <div class="collapse navbar-collapse" id="navbar-items">
+          <ul class="navbar-nav me auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link primary-color">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link primary-color">Imóveis</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link primary-color">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--SLIDER-->
+    <div class="container" id="slider-container">
+      <div class="carousel slide" id="slider" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            class="active"
+            data-bs-target="#slider"
+            data-bs-slide-to="0"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner-1.jpg" alt="casa 1" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Casas Planejadas</h5>
+              <a href="#" class="btn btn-dark">Ver Projetos</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner-2.jpg" alt="casa 2" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Projetos Complexos</h5>
+              <a href="#" class="btn btn-dark">Ver Projetos</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner-3.jpg" alt="casa 3" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h5>Projetos Inovadores</h5>
+              <a href="#" class="btn btn-dark">Ver Projetos</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="prev"
+        >
+          <i class="bi bi-chevron-compact-left"></i>
+          <span class="visualy-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="next"
+        >
+          <i class="bi bi-chevron-compact-right"></i>
+          <span class="visualy-hidden">Next</span>
+        </button>
+      </div>
+      <!--MINI BANNERS-->
+      <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="bi bi-box primary-color"></i>
+              <div class="card-body">
+                <h5 class="card-title primary-color">Projetos Completos</h5>
+                <p class="card-text secondary-color">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn btn-dark">Saber Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="bi bi-layers primary-color"></i>
+              <div class="card-body">
+                <h5 class="card-title primary-color">Você Participa Também</h5>
+                <p class="card-text secondary-color">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn btn-dark">Saber Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="bi bi-lightning-charge primary-color"></i>
+              <div class="card-body">
+                <h5 class="card-title primary-color">
+                  Adiantamento de Entregas
+                </h5>
+                <p class="card-text secondary-color">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn btn-dark">Saber Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--DESTAQUES-->
+    <div class="container" id="featured-container">
+      <div class="col-12">
+        <h2 class="title primary-color">Trabalhos em Destaque</h2>
+        <p class="subtitle secondary-color">
+          Conheça nossos projetos mais desafiadores
+        </p>
+      </div>
+      <div class="col-12" id="featured-images">
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <img src="img/project-1.jpg" alt="projeto 1" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Categoria</p>
+              <h3>Nome do Projeto</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="img/project-2.jpg" alt="projeto 2" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Categoria</p>
+              <h3>Nome do Projeto</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="img/project-3.jpg" alt="projeto 3" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Categoria</p>
+              <h3>Nome do Projeto</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="img/project-4.jpg" alt="projeto 4" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Categoria</p>
+              <h3>Nome do Projeto</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="img/project-5.jpg" alt="projeto 5" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Categoria</p>
+              <h3>Nome do Projeto</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="img/project-6.jpg" alt="projeto 6" class="img-fluid" />
+            <div class="banner-content">
+              <p class="secondary-color">Categoria</p>
+              <h3>Nome do Projeto</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--INFO-->
+    <div class="container" id="info-container">
+      <div class="col-12">
+        <h2 class="title primary-color">Detalhes Importantes</h2>
+        <p class="subtitle secondary-color">
+          Saiba mais sobre a experiência da nossa incrível equipe
+        </p>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-md-5" id="info-banner">
+            <img
+              src="/img/infobanner.jpg"
+              alt="informações da empresa"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="title primary-color">
+                  Estes dados fazem a diferença
+                </h2>
+                <p class="subtitle secondary-color">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sapiente soluta repudiandae illo cumque, ea numquam beatae,
+                  corrupti ad laborum temporibus, eaque voluptatibus magnam est
+                  dolorem. Ex cupiditate necessitatibus quod quam.
+                </p>
+              </div>
+              <div class="col-12" id="info-numbers">
+                <div class="row">
+                  <div class="col-4">
+                    <h3 class="primary-color">18</h3>
+                    <p class="secondary-color">Anos de Construção Civil</p>
+                  </div>
+                  <div class="col-4">
+                    <h3 class="primary-color">95</h3>
+                    <p class="secondary-color">Projetos Executados</p>
+                  </div>
+                  <div class="col-4">
+                    <h3 class="primary-color">639</h3>
+                    <p class="secondary-color">Clientes</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <a href="#" class="btn btn-dark">Saber Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="container-fluid bg-dark-color" id="footer">
+      <div class="container">
+        <div class="row">
+          <!--FOOTER TOP -->
+          <div class="col-12" id="footer-top">
+            <div class="row justify-content-between">
+              <div class="col-4"><h2>IPNS Move</h2></div>
+              <div class="col-4" id="social-icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-twitter"></i>
+              </div>
+            </div>
+          </div>
+          <!--FOOTER DETAILS -->
+          <div class="col-12" id="footer-details"></div>
+          <div class="row">
+            <div class="col-12 col-md-4" id="news-container">
+              <h4>Fique por dentro das novidades</h4>
+              <p class="secondary-color">
+                Inscreva-se para saber mais em primeira mão
+              </p>
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Digite o seu E-mail"
+                  />
+                </div>
+                <button class="btn btn-dark" type="submit">Inscrever</button>
+              </form>
+            </div>
+            <div class="col-12 col-md-4" id="contact-container">
+              <h4>Formas de Contato</h4>
+              <p class="secondary-color">(83)9999-8888</p>
+              <p class="secondary-color">contato@ipnsmove.com</p>
+            </div>
+            <div class="col-12 col-md-4" id="links-container">
+              <div class="row">
+                <h4>Você pode estar procurando por:</h4>
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="secondary-color">Projetos</a></li>
+                    <li><a href="#" class="secondary-color">Imóveis</a></li>
+                    <li><a href="#" class="secondary-color">Vendas</a></li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="secondary-color">Contratar</a></li>
+                    <li>
+                      <a href="#" class="secondary-color">Trabalhe Conosco</a>
+                    </li>
+                    <li><a href="#" class="secondary-color">Contato</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FOOTER BOOTTOM -->
+          <div class="col-12" id="footer-bottom">
+            <div class="row justify-content-between">
+              <div class="col12 col-md-3">
+                <p class="secondary-color">IPNS Movi &copy; 2024</p>
+              </div>
+              <div class="col12 col-md-3">
+                <p class="secondary-color">
+                  Realizamos o seu projeto <i class="bi bi-heart"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
