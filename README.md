@@ -4,9 +4,8 @@ Este projeto é um site de uma construtora civil, ele apresenta várias funciona
 
 <h1>Tecnologias Utilizadas</h1>
 
-Html 5 -Utilizado para estruturar as páginas do site.<br>
-Css - Utilizado para estilizar e personalizar o layout do site.<br><br>
-
+HTML
+Bootstrap (CSS via CDN)
 
 <h1>⚠️ Problemas enfrentados</h1>
 <br><br>
